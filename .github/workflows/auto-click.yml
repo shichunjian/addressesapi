@@ -24,4 +24,4 @@ jobs:
 
     - name: Run Puppeteer script
       run: |
-        node click.js
+        node .github/workflows/click.js

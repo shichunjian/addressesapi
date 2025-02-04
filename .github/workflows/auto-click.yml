@@ -1,27 +1,18 @@
-name: Auto Visit Serv00
+name: Auto Visit Serv00  Every 5 Minutes
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 每5分钟执行一次
-  workflow_dispatch:  # 允许手动触发
+    - cron: '*/5 * * * *'  # 每 5 分钟执行一次
 
 jobs:
-  visit_job:
+  visit:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'  # 使用Node.js 16版本
-
-    - name: Install dependencies
+    - name: Visit website
       run: |
-        npm install puppeteer
-
-    - name: Run Puppeteer script
-      run: |
-        node .github/workflows/click.js
+        curl -s -o /dev/null -w "HTTP Status: %{http_code}\n" https://free-net123.serv00.net
+        curl -s -o /dev/null -w "HTTP Status: %{http_code}\n" https://microke.serv00.net

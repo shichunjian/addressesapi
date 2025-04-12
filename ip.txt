@@ -1,10 +1,13 @@
 104.19.84.196:443#西雅图ProxyIP
 138.2.235.224:8443#圣何塞ProxyIP
+104.19.171.44:8443#圣何塞ProxyIP
 140.238.218.65:8443#苏黎世ProxyIP
 141.145.205.115:8443#巴黎ProxyIP
 130.61.51.100:8443#法兰克福ProxyIP
 204.216.216.148:8443#米兰ProxyIP
 141.147.47.32:8443#法兰克福ProxyIP
+162.159.194.71:8443#香港ProxyIP
+162.159.254.101:8443#香港ProxyIP
 ts.hpc.tw:8443#台湾ProxyIP
 ProxyIP.US.CMLiussss.net:443#美国ProxyIP
 ProxyIP.SG.CMLiussss.net:443#新加坡ProxyIP

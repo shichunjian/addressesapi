@@ -1,1 +1,1 @@
-ts.hpc.tw:443#台湾反代
+s13.serv00.com:443#Serv00_s13
